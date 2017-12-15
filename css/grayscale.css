@@ -140,13 +140,18 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  padding-top: 100px; }
+  padding-top: 100px; 
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
 
-.download-section {
+.project-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/stardust_@2X.png) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -161,7 +166,7 @@ a {
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px; }
-  .download-section {
+  .project-section {
     padding: 100px 0; }
   #map {
     height: 350px;
